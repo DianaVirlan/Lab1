@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace Virlan_Diana_Lab2.Models
+namespace LibraryModel.Models
 {
     public class Book
     {

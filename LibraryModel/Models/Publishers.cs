@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Virlan_Diana_Lab2.Models;
+using LibraryModel.Models;
 
 public class Publisher
 {

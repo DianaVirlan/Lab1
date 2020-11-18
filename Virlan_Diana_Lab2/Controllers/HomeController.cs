@@ -9,6 +9,7 @@ using Virlan_Diana_Lab2.Models;
 using Microsoft.EntityFrameworkCore;
 using Virlan_Diana_Lab2.Data;
 using Virlan_Diana_Lab2.Models.LibraryViewModels;
+using LibraryModel.Data;
 
 namespace Virlan_Diana_Lab2.Controllers
 {
