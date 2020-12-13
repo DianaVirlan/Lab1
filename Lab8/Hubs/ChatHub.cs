@@ -10,7 +10,7 @@ namespace Virlan_Diana_Lab2.Hubs
     {
         public async Task SendMessage(string user, string message)
         {
-            await Clients.All.SendAsync("ReceiveMessage", user, message);
+            await Clients.All.SendAsync("ReceiveMessage", Context.User.Identity.Name, message);
         }
     }
 }
